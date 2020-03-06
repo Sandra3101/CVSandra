@@ -1,0 +1,1123 @@
+@font-face 
+
+{
+
+	font-family: 'Aaargh';
+
+	src: url('Aaargh.ttf') format('truetype'),
+
+	url('Aaargh.eot') format('eot'),
+
+	url('Aaargh.woff') format('woff'),
+
+	url('Aaargh.svg') format('svg');
+
+	font-weight: normal;
+
+	font-style: normal;
+
+}
+
+
+
+body
+
+{
+
+	border: 2px #DEB76F solid;
+	max-width: 1190px;
+	margin: auto;
+	display: flex;
+	font-family: 'Aaargh', 'Arial', 'sans-serif';
+
+}
+
+
+p
+
+{
+
+	color: grey;
+
+}
+
+
+
+
+
+
+
+/* Contenu Partie gauche Aside Fond Beige plus photo */
+
+
+
+aside
+
+{
+
+	display: flex;
+
+	flex-direction: column;
+
+	justify-content: space-around;
+
+	width: 32%;
+
+	background-color: #FDF6E5;
+
+}
+
+
+
+article:nth-child(2)
+
+{
+
+	flex: 3;
+
+}
+
+
+
+article:nth-child(3)
+
+{
+
+	flex: 4;
+
+}
+
+
+
+
+
+#photo
+
+{
+
+	padding-top: 100px;
+
+	margin-bottom: 80px;
+
+}
+
+
+
+
+
+
+
+aside img
+
+{
+
+	 display: block;
+
+    max-width: 220px;
+
+    border: 2px solid #DEB76F;
+
+    border-radius: 100%;
+
+    margin: auto;
+
+}
+
+
+
+
+
+article h2
+
+{
+
+
+
+	font-size: 30px;
+
+	font-family: 'Aaargh';
+
+	color: #DEB76F;
+
+	text-align: center;
+
+	padding: 10px 0px;
+
+	background-color: #FFFFFF;
+
+}
+
+
+
+
+
+
+
+
+
+article p
+
+{
+
+	font-family: 'Aaargh';
+
+	font-size: 13px;
+
+	padding: 15px 45px 15px 45px;
+
+	color: #9B989A;
+
+	text-align: justify;
+
+}
+
+
+
+
+
+
+
+
+
+#hobbies
+
+{
+
+	display: flex;
+
+	padding: 10px 20px 10px 20px;
+
+}
+
+
+
+
+
+#hobbies i
+
+{
+
+
+
+	height: 80px;
+
+	width: 80px;
+
+	border-radius: 100%;
+
+	border: 2px #DEB76F solid;
+
+	font-size: 40px;
+
+	margin: auto;
+
+	line-height: 70px;
+
+	text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+/* Contenu titre ,sections : la formation, les expérience et les recommandations */
+
+
+
+
+
+
+
+#content
+
+
+
+{
+
+width: 60%;
+
+
+margin-left: 5%;
+
+
+
+margin-right: 5%;
+	
+}
+
+
+
+
+
+header
+
+{
+
+	margin: 110px 20px 130px 20px;
+
+}
+
+
+
+
+
+h1
+
+{
+
+	font-family: 'Aaargh', 'Arial', 'serif';
+
+	font-size: 50px;
+
+	margin-bottom: 10px;
+
+}
+
+
+
+
+
+h1+ p
+
+{
+
+	font-size : 20px;
+
+}
+
+
+
+
+
+li
+
+{
+
+	color: grey;
+
+	font-family: 'Aaargh';
+
+	font-size: 14px;
+
+}
+
+
+
+
+
+#title_color
+
+{
+
+	font-family: 'Aaargh';
+
+	font-weight: bolder;
+
+	color: #DEB76F;
+
+}
+
+
+
+
+
+#title_border
+
+{
+
+	border-bottom: 3px #DEB76F solid;
+
+}
+
+
+
+
+
+#content h2 
+
+{
+
+	font-size: 25px;
+
+	color: black;
+
+	font-family: 'Aaargh';
+
+	padding-bottom: 20px;
+
+	margin: 15px 45px 45px 15px;
+
+	border-bottom: 3px #DEB76F solid;
+
+}
+
+
+
+
+
+h2 i
+
+{
+
+	color: #615E61;
+
+	margin-right: 30px;
+
+}
+
+
+
+
+
+section
+
+{
+
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+
+
+
+
+.conteneur
+{
+
+	padding-bottom: 45px;
+
+}
+
+
+
+
+
+.conteneur, .period
+
+{
+
+	display: flex;
+
+	justify-content: space-between;
+
+}
+
+
+
+
+
+.period i
+
+{
+
+	font-size: 12px;
+
+	color: #4C3E4E;
+
+	margin-right: 5px;
+
+}
+
+
+
+
+
+.period p, h3
+
+{
+
+	margin: 0px;
+
+	font-weight: bold;
+
+
+
+}
+
+
+
+
+.description
+
+{
+
+	width: 65%;
+
+}
+
+
+
+
+
+.description h3
+
+{
+
+	
+
+	font-family: 'Aaargh';
+
+	font-size: 15px;
+
+	color: #615E61;
+
+
+
+}
+
+
+
+
+
+
+
+.description h4
+
+{
+
+	font-family: 'Aaargh';
+
+	font-size: 14px;
+
+	color: #615E61;
+
+}
+
+
+
+
+
+.description p 
+
+{
+
+	font-family: 'Aaargh';
+
+	font-size: 13px;
+
+}
+
+
+
+
+
+.recom
+
+{
+
+	width: 70%;
+
+	margin-left: 20px;
+
+}
+
+
+
+
+
+.recom h3
+
+{
+
+	font-family: 'Aaargh';
+
+	font-size: 20px;
+
+	color: #615E61;
+
+}
+
+
+
+
+
+.recom p
+
+{
+
+	font-family: 'Aaargh';
+
+	font-size: 14px;
+
+}
+
+
+
+
+
+
+
+/* Les icônes*/
+
+
+
+
+
+i[class="fas fa-circle"]
+
+{
+
+	color: #DEB76F;
+
+	font-size: 6px;
+
+	margin-left: 20px;
+
+}
+
+
+
+
+
+
+
+i[class="fas fa-graduation-cap"]
+
+{
+
+	color: #DEB76F;
+
+	margin-left: 5px;
+
+}
+
+
+
+
+
+
+
+i[class="far fa-dot-circle"]
+
+{
+
+	color: #DEB76F;
+
+	margin-left: 20px;
+
+	
+
+}
+
+
+
+
+
+i[class="fas fa-briefcase"]
+
+{
+
+	color: #DEB76F;
+
+	margin-left: 5px;
+
+}
+
+
+
+
+
+i[class="fas fa-pencil-alt"]
+
+{
+
+	color: #DEB76F;
+
+	margin-left: 5px;
+
+}
+
+
+
+
+
+
+
+/*4.RESPONSIVE DESIGN*/
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+
+
+
+	body
+
+	{
+	border: none;
+	width: auto;
+	height : auto;
+	display: flex;
+	flex-direction: column;
+	}
+
+
+
+	aside
+
+	{
+	width: 100%;     
+	}
+
+
+
+	 .article:nth-child(2){
+
+        display: none;
+
+    }
+
+    .article:nth-child(3){
+
+        display: none;
+
+    }
+
+	
+
+
+
+	#content
+
+	{
+	width: 90%;
+	margin: 0 20px; 
+	}
+
+
+
+
+
+
+
+	header
+
+	{
+
+
+
+		margin: 50px auto;
+
+
+
+		text-align: center;
+
+	}
+
+
+
+	h1
+
+	{
+font-size: 15px;
+}
+
+
+
+
+
+
+
+	h1+p
+
+	{
+font-size: 14px;
+	}
+
+
+
+
+
+
+
+	li
+
+	{
+
+		color: grey;
+
+		font-family: 'Aaargh';
+
+		font-size: 12px;
+
+	}
+
+
+
+
+
+	#content
+
+	{
+
+		border-top: none;
+
+        padding-bottom: 20px;
+
+        padding-top: 20px;
+
+	}
+
+
+
+
+
+
+
+	#content h2
+
+	{
+
+text-align: center;
+font-size: 14px;
+font-family: 'Aaargh';
+padding-bottom: 30px;
+padding-top: 40px;
+margin-bottom: 15px;
+border-top: 3px #DEB76F solid;
+border-bottom: none;
+}
+
+
+
+
+
+
+
+	h2 .fas
+
+	{
+
+		margin: 5px;
+
+	}
+
+
+
+
+
+	.description p
+
+	{
+
+		font-family: 'Aaargh';
+
+		font-size: 12px;
+
+	}
+
+
+
+	.recom h3
+
+	{
+
+		font-family: 'Aaargh';
+
+		font-size: 12px;
+
+		color: #615E61;
+
+	}
+
+
+
+
+
+	.recom p
+
+	{
+
+		font-family: 'Aaargh';
+
+		font-size: 12px;
+
+	}
+
+
+
+
+
+	.description h3
+
+	{
+
+		font-size: 12px;
+
+		font-family: 'Aaargh';
+
+	}
+
+
+
+	.description h4
+
+	{
+
+		font-size: 13px;
+
+	}
+
+
+
+
+
+
+
+	ul
+
+	{
+
+		text-align: justify;
+
+		font-family: 'Aaargh';
+
+	}
+
+
+
+}
+
+
+
+
+
+
+/*-----------------@media screen and (max-width:768px)-*/
+
+
+
+@media screen and (max-width: 800px){
+
+
+	body
+
+	{
+	border: none;
+	display: flex;
+	flex-direction: column;
+	}
+
+
+
+	aside
+	{
+		width: 100%;     
+	}
+
+
+
+	#content
+
+	{
+		width: 90%;
+		margin: 0px 20px;
+	}
+
+
+
+
+
+
+
+	header
+
+	{
+	margin: 50px;
+	text-align: center;
+	}
+
+
+
+	h1
+
+	{
+
+	font-size: 20px;
+
+	}
+
+
+
+
+
+
+
+	h1+p
+
+	{
+
+	font-size: 15px;
+
+	}
+
+
+
+
+
+
+
+	li
+
+	{
+
+		color: grey;
+
+		font-family: 'Aaargh';
+
+		font-size: 11px;
+
+	}
+
+
+
+
+
+	#content
+
+	{
+
+		margin: 0px;
+		padding: 0px 20px;
+
+	}
+
+
+
+
+
+
+
+	#content h2
+
+	{
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Aaargh';
+	padding-bottom: 30px;
+	padding-top: 40px;
+	margin-bottom: 15px;
+	border-top: 3px #DEB76F solid;
+	border-bottom: none;
+}
+
+
+
+
+h2 .fas
+
+	{
+
+		margin: 5px;
+
+	}
+
+	
+
+
+
+
+
+	.description p
+
+	{
+
+		font-family: 'Aaargh';
+
+		font-size: 12px;
+
+	}
+
+
+
+	.recom h3
+
+	{
+
+		font-family: 'Aaargh';
+
+		font-size: 13px;
+
+		color: #615E61;
+
+	}
+
+
+
+
+
+	.recom p
+
+	{
+
+		font-family: 'Aaargh';
+
+		font-size: 11px;
+
+	}
+
+
+
+
+
+	.description h3
+
+	{
+
+		font-size: 14px;
+
+		font-family: 'Aaargh';
+
+	}
+
+
+
+	.description h4
+
+	{
+
+		font-size: 14px;
+
+	}
+
+
+
+
+
+
+
+	ul
+
+	{
+
+		text-align: justify;
+
+		font-family: 'Aaargh';
+
+	}
+
+
+
+	.period p
+
+	{
+
+		font-size: 11px;
+
+	}
+
+
+
+}
+
+
