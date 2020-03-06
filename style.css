@@ -54,139 +54,79 @@ p
 aside
 
 {
-
 	display: flex;
-
 	flex-direction: column;
-
 	justify-content: space-around;
-
 	width: 32%;
-
 	background-color: #FDF6E5;
-
 }
 
 
 
 article:nth-child(2)
-
 {
-
 	flex: 3;
-
 }
 
 
 
 article:nth-child(3)
-
 {
-
 	flex: 4;
-
 }
-
-
 
 
 
 #photo
 
 {
-
 	padding-top: 100px;
-
 	margin-bottom: 80px;
-
 }
-
-
-
-
 
 
 
 aside img
 
 {
-
-	 display: block;
-
-    max-width: 220px;
-
-    border: 2px solid #DEB76F;
-
-    border-radius: 100%;
-
-    margin: auto;
-
+	display: block;
+	border: 2px solid #DEB76F;
+	border-radius: 100%;
+	margin: auto;
 }
-
-
 
 
 
 article h2
 
 {
-
-
-
 	font-size: 30px;
-
 	font-family: 'Aaargh';
-
 	color: #DEB76F;
-
 	text-align: center;
-
 	padding: 10px 0px;
-
 	background-color: #FFFFFF;
-
 }
-
-
-
-
-
-
 
 
 
 article p
 
 {
-
 	font-family: 'Aaargh';
-
 	font-size: 13px;
-
 	padding: 15px 45px 15px 45px;
-
 	color: #9B989A;
-
 	text-align: justify;
-
 }
-
-
-
-
-
-
 
 
 
 #hobbies
 
 {
-
 	display: flex;
-
 	padding: 10px 20px 10px 20px;
-
 }
 
 
@@ -196,31 +136,15 @@ article p
 #hobbies i
 
 {
-
-
-
 	height: 80px;
-
 	width: 80px;
-
 	border-radius: 100%;
-
 	border: 2px #DEB76F solid;
-
 	font-size: 40px;
-
 	margin: auto;
-
 	line-height: 70px;
-
 	text-align: center;
-
 }
-
-
-
-
-
 
 
 
@@ -228,78 +152,44 @@ article p
 /* Contenu titre ,sections : la formation, les expérience et les recommandations */
 
 
-
-
-
-
-
 #content
-
-
-
 {
-
-width: 60%;
-
-
-margin-left: 5%;
-
-
-
-margin-right: 5%;
-	
+	width: 60%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
-
-
 
 
 
 header
 
 {
-
 	margin: 110px 20px 130px 20px;
-
 }
-
-
 
 
 
 h1
 
 {
-
 	font-family: 'Aaargh', 'Arial', 'serif';
-
 	font-size: 50px;
-
 	margin-bottom: 10px;
-
 }
-
-
 
 
 
 h1+ p
-
 {
-
 	font-size : 20px;
-
 }
-
-
 
 
 
 li
 
 {
-
 	color: grey;
-
 	font-family: 'Aaargh';
 
 	font-size: 14px;
@@ -474,9 +364,6 @@ section
 
 
 
-
-
-
 .description h4
 
 {
@@ -488,7 +375,6 @@ section
 	color: #615E61;
 
 }
-
 
 
 
@@ -506,7 +392,6 @@ section
 
 
 
-
 .recom
 
 {
@@ -516,7 +401,6 @@ section
 	margin-left: 20px;
 
 }
-
 
 
 
@@ -535,8 +419,6 @@ section
 
 
 
-
-
 .recom p
 
 {
@@ -550,12 +432,7 @@ section
 
 
 
-
-
-
 /* Les icônes*/
-
-
 
 
 
@@ -575,8 +452,6 @@ i[class="fas fa-circle"]
 
 
 
-
-
 i[class="fas fa-graduation-cap"]
 
 {
@@ -586,9 +461,6 @@ i[class="fas fa-graduation-cap"]
 	margin-left: 5px;
 
 }
-
-
-
 
 
 
@@ -638,13 +510,7 @@ i[class="fas fa-pencil-alt"]
 
 
 
-
 /*4.RESPONSIVE DESIGN*/
-
-
-
-
-
 
 
 @media screen and (max-width: 1200px){
@@ -654,11 +520,11 @@ i[class="fas fa-pencil-alt"]
 	body
 
 	{
-	border: none;
-	width: auto;
-	height : auto;
-	display: flex;
-	flex-direction: column;
+		border: none;
+		width: auto;
+		height : auto;
+		display: flex;
+		flex-direction: column;
 	}
 
 
@@ -666,22 +532,22 @@ i[class="fas fa-pencil-alt"]
 	aside
 
 	{
-	width: 100%;     
+		width: 100%;     
 	}
 
 
 
-	 .article:nth-child(2){
+	.article:nth-child(2){
 
-        display: none;
+		display: none;
 
-    }
+	}
 
-    .article:nth-child(3){
+	.article:nth-child(3){
 
-        display: none;
+		display: none;
 
-    }
+	}
 
 	
 
@@ -690,11 +556,9 @@ i[class="fas fa-pencil-alt"]
 	#content
 
 	{
-	width: 90%;
-	margin: 0 20px; 
+		width: 90%;
+		margin: 0 20px; 
 	}
-
-
 
 
 
@@ -703,15 +567,8 @@ i[class="fas fa-pencil-alt"]
 	header
 
 	{
-
-
-
 		margin: 50px auto;
-
-
-
 		text-align: center;
-
 	}
 
 
@@ -719,24 +576,16 @@ i[class="fas fa-pencil-alt"]
 	h1
 
 	{
-font-size: 15px;
-}
-
-
-
-
+		font-size: 15px;
+	}
 
 
 
 	h1+p
 
 	{
-font-size: 14px;
+		font-size: 14px;
 	}
-
-
-
-
 
 
 
@@ -745,11 +594,8 @@ font-size: 14px;
 	{
 
 		color: grey;
-
 		font-family: 'Aaargh';
-
 		font-size: 12px;
-
 	}
 
 
@@ -762,15 +608,11 @@ font-size: 14px;
 
 		border-top: none;
 
-        padding-bottom: 20px;
+		padding-bottom: 20px;
 
-        padding-top: 20px;
+		padding-top: 20px;
 
 	}
-
-
-
-
 
 
 
@@ -778,15 +620,15 @@ font-size: 14px;
 
 	{
 
-text-align: center;
-font-size: 14px;
-font-family: 'Aaargh';
-padding-bottom: 30px;
-padding-top: 40px;
-margin-bottom: 15px;
-border-top: 3px #DEB76F solid;
-border-bottom: none;
-}
+		text-align: center;
+		font-size: 14px;
+		font-family: 'Aaargh';
+		padding-bottom: 30px;
+		padding-top: 40px;
+		margin-bottom: 15px;
+		border-top: 3px #DEB76F solid;
+		border-bottom: none;
+	}
 
 
 
@@ -860,6 +702,7 @@ border-bottom: none;
 
 
 
+
 	.description h4
 
 	{
@@ -867,9 +710,6 @@ border-bottom: none;
 		font-size: 13px;
 
 	}
-
-
-
 
 
 
@@ -903,9 +743,9 @@ border-bottom: none;
 	body
 
 	{
-	border: none;
-	display: flex;
-	flex-direction: column;
+		border: none;
+		display: flex;
+		flex-direction: column;
 	}
 
 
@@ -928,13 +768,11 @@ border-bottom: none;
 
 
 
-
-
 	header
 
 	{
-	margin: 50px;
-	text-align: center;
+		margin: 50px;
+		text-align: center;
 	}
 
 
@@ -943,12 +781,9 @@ border-bottom: none;
 
 	{
 
-	font-size: 20px;
+		font-size: 20px;
 
 	}
-
-
-
 
 
 
@@ -957,13 +792,9 @@ border-bottom: none;
 
 	{
 
-	font-size: 15px;
+		font-size: 15px;
 
 	}
-
-
-
-
 
 
 
@@ -996,25 +827,23 @@ border-bottom: none;
 
 
 
-
-
 	#content h2
 
 	{
-	text-align: center;
-	font-size: 15px;
-	font-family: 'Aaargh';
-	padding-bottom: 30px;
-	padding-top: 40px;
-	margin-bottom: 15px;
-	border-top: 3px #DEB76F solid;
-	border-bottom: none;
-}
+		text-align: center;
+		font-size: 15px;
+		font-family: 'Aaargh';
+		padding-bottom: 30px;
+		padding-top: 40px;
+		margin-bottom: 15px;
+		border-top: 3px #DEB76F solid;
+		border-bottom: none;
+	}
 
 
 
 
-h2 .fas
+	h2 .fas
 
 	{
 
@@ -1023,9 +852,6 @@ h2 .fas
 	}
 
 	
-
-
-
 
 
 	.description p
