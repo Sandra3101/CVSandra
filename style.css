@@ -332,7 +332,6 @@ section
 
 
 
-
 .description
 
 {
@@ -340,7 +339,6 @@ section
 	width: 65%;
 
 }
-
 
 
 
@@ -360,7 +358,6 @@ section
 
 
 }
-
 
 
 
@@ -557,7 +554,7 @@ i[class="fas fa-pencil-alt"]
 
 	{
 		width: 90%;
-		margin: 0 20px; 
+		
 	}
 
 
@@ -607,9 +604,6 @@ i[class="fas fa-pencil-alt"]
 	{
 
 		border-top: none;
-
-		padding-bottom: 20px;
-
 		padding-top: 20px;
 
 	}
@@ -689,7 +683,6 @@ i[class="fas fa-pencil-alt"]
 
 
 
-
 	.description h3
 
 	{
@@ -731,8 +724,6 @@ i[class="fas fa-pencil-alt"]
 
 
 
-
-
 /*-----------------@media screen and (max-width:768px)-*/
 
 
@@ -761,7 +752,7 @@ i[class="fas fa-pencil-alt"]
 
 	{
 		width: 90%;
-		margin: 0px 20px;
+		
 	}
 
 
@@ -808,23 +799,13 @@ i[class="fas fa-pencil-alt"]
 
 		font-size: 11px;
 
-	}
+}
 
 
-
-
-
-	#content
-
-	{
-
-		margin: 0px;
-		padding: 0px 20px;
-
-	}
-
-
-
+#content
+{
+	width: 90%;
+}
 
 
 	#content h2
@@ -919,9 +900,6 @@ i[class="fas fa-pencil-alt"]
 
 
 
-
-
-
 	ul
 
 	{
@@ -947,3 +925,197 @@ i[class="fas fa-pencil-alt"]
 }
 
 
+
+
+/*----------------------------Media Queries max-width 480px----------------------------------*/
+
+@media screen and (max-width: 400px)
+{
+
+body
+
+	{
+		border: none;
+		display: flex;
+		flex-direction: column;
+	}
+
+
+
+	aside
+	{
+		width: 100%;     
+	}
+
+
+
+	#content
+
+	{
+		width: 90%;
+		
+	}
+
+
+
+
+	header
+
+	{
+		margin: 50px;
+		text-align: center;
+	}
+
+
+
+	h1
+
+	{
+
+		font-size: 20px;
+
+	}
+
+
+
+
+	h1+p
+
+	{
+
+		font-size: 15px;
+
+	}
+
+
+
+	li
+
+	{
+
+		color: grey;
+
+		font-family: 'Aaargh';
+
+		font-size: 11px;
+
+}
+
+
+#content
+{
+	width: 90%;
+}
+
+
+	#content h2
+
+	{
+		text-align: center;
+		font-size: 15px;
+		font-family: 'Aaargh';
+		padding-bottom: 30px;
+		padding-top: 40px;
+		margin-bottom: 15px;
+		border-top: 3px #DEB76F solid;
+		border-bottom: none;
+	}
+
+
+
+
+	h2 .fas
+
+	{
+
+		margin: 5px;
+
+	}
+
+	
+
+
+	.description p
+
+	{
+
+		font-family: 'Aaargh';
+
+		font-size: 12px;
+
+	}
+
+
+
+	.recom h3
+
+	{
+
+		font-family: 'Aaargh';
+
+		font-size: 13px;
+
+		color: #615E61;
+
+	}
+
+
+
+	.recom p
+
+	{
+
+		font-family: 'Aaargh';
+
+		font-size: 11px;
+
+	}
+
+
+
+
+
+	.description h3
+
+	{
+
+		font-size: 14px;
+
+		font-family: 'Aaargh';
+
+	}
+
+
+
+	.description h4
+
+	{
+
+		font-size: 14px;
+
+	}
+
+
+
+
+	ul
+
+	{
+
+		text-align: justify;
+
+		font-family: 'Aaargh';
+
+	}
+
+
+
+	.period p
+
+	{
+
+		font-size: 11px;
+
+	}
+
+}
