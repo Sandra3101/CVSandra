@@ -728,7 +728,7 @@ i[class="fas fa-pencil-alt"]
 
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 768px){
 
 
 	body
@@ -788,6 +788,11 @@ i[class="fas fa-pencil-alt"]
 	}
 
 
+	article p
+	{
+		font-size: 12px;
+	}
+
 
 	li
 
@@ -799,13 +804,13 @@ i[class="fas fa-pencil-alt"]
 
 		font-size: 11px;
 
-}
+	}
 
 
-#content
-{
-	width: 90%;
-}
+	#content
+	{
+		width: 90%;
+	}
 
 
 	#content h2
@@ -927,12 +932,12 @@ i[class="fas fa-pencil-alt"]
 
 
 
-/*----------------------------Media Queries max-width 480px----------------------------------*/
+/*----------------------------Media Queries max-width 400px----------------------------------*/
 
 @media screen and (max-width: 400px)
 {
 
-body
+	body
 
 	{
 		border: none;
@@ -983,8 +988,15 @@ body
 
 	{
 
-		font-size: 15px;
+		font-size: 13px;
 
+	}
+
+
+
+	article p
+	{
+		font-size: 12px;
 	}
 
 
@@ -999,13 +1011,13 @@ body
 
 		font-size: 11px;
 
-}
+	}
 
 
-#content
-{
-	width: 90%;
-}
+	#content
+	{
+		width: 90%;
+	}
 
 
 	#content h2
@@ -1041,7 +1053,7 @@ body
 
 		font-family: 'Aaargh';
 
-		font-size: 12px;
+		font-size: 11px;
 
 	}
 
@@ -1067,7 +1079,7 @@ body
 
 		font-family: 'Aaargh';
 
-		font-size: 11px;
+		font-size: 10px;
 
 	}
 
@@ -1079,7 +1091,7 @@ body
 
 	{
 
-		font-size: 14px;
+		font-size: 12px;
 
 		font-family: 'Aaargh';
 
@@ -1091,7 +1103,7 @@ body
 
 	{
 
-		font-size: 14px;
+		font-size: 12px;
 
 	}
 
